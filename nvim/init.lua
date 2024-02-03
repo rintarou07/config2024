@@ -1,3 +1,4 @@
+vim.cmd([[set nu]])
 vim.g.mapleader= ' '
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -50,6 +51,5 @@ require("lazy").setup("plugins")
    --highlight = {enable = true},
    --indent = {enable = true},
 --})
-
 --neotree setup
 --vim.keymap.set('n', '<leader>n', ':Neotree filesystem reveal left<CR>')
