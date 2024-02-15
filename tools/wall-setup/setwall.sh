@@ -1,0 +1,1 @@
+swaybg -i /home/rintarou/wallpapers/wallhaven-8339qy.png
